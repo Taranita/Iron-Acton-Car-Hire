@@ -1,0 +1,8 @@
+{
+    "name": "Fuel Type",
+    "updated": "2020-10-17 09:21:00",
+    "fuelTypes":[
+        {"id":1, "description":"Petrol"},
+        {"id":2, "description":"Diesel"}
+    ]
+}

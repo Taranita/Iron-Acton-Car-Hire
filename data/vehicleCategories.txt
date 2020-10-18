@@ -1,0 +1,9 @@
+{
+    "name": "Vehicle Categories",
+    "updated": "2020-10-17 09:20:00",
+    "categories":[
+        {"id":1, "description":"Small car", "dayRate":25},
+        {"id":2, "description":"Estate car", "dayRate":35},
+        {"id":3, "description":"Van", "dayRate":50}
+    ]
+}

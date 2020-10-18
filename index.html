@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <!-- Iron Acton Vehicle Hire demonstration web site from Tony Jobbins -->	
+<head>
+	<meta charset="utf-8">
+    <title>Iron Acton Vehicle Hire</title>
+    <link rel="stylesheet" href="css/iavh.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+    <script src="js/iavh.js"></script>
+</head>
+
+<body onload="loadData(); ">
+    <!-- Dialog box for hires -->	
+    <div id="dialogHire" title="Iron Acton Vehicle Hire" style="display: none;">
+		<div><span class="dlgFld">Hire N°: </span><span id="dlgHireNum"></span></div>
+		<div><span class="dlgFld">Customer: </span><span id="dlgCustomer"></span></div>
+		<div><span class="dlgFld">Registration: </span><span id="dlgReg"></span></div>
+		<div><span class="dlgFld">Start Date: </span><span id="dlgStart"></span></div>
+		<div><span class="dlgFld">End Date: </span><span id="dlgEnd"></span></div>
+		<div><span class="dlgFld">Cost: </span><span id="dlgCost"></span></div>
+    </div>
+  
+ 
+    <!-- Header -->	
+    <div class="header">
+		<p>Iron Acton Vehicle Hire</p>
+    </div>      
+   
+    <!-- Tbas for switching between Vehicles and Customers -->	
+    <div class="tabs">
+        <div class="spacer"></div>
+        <div id="vehicleTab" class="tab">Vehicles</div>
+        <div id="customerTab" class="tab"><a onClick="displayTab(1)">Customers</a></div>
+        <div class="spacer"></div>
+    </div>   
+    <div id="vehicles">
+    </div>    
+    <div id="customers"  style="display: none;">
+    </div>  
+   
+</body>
+</html>

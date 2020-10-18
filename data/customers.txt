@@ -1,0 +1,10 @@
+{
+    "name": "Customers",
+    "updated": "2020-10-17 09:55:00",
+    "customers":[
+        {"id": 1, "name":"David McJohnson", "type": "Individual", "postCode":"BS37 9HB", "tel":"04587 562233"},
+        {"id": 2, "name":"Really & Sons", "type": "Company", "postCode":"BS35 2TR", "tel":"01454 985522"},
+        {"id": 3, "name":"WizzBang", "type": "Company", "postCode":"BA3 7TA", "tel":"01125 215499"},
+        {"id": 4, "name":"Pat Pending", "type": "Individual", "postCode":"BS7 2DD", "tel":"0117 966 8520"}
+    ]
+}

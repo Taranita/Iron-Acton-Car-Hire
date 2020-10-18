@@ -1,0 +1,12 @@
+{
+    "name": "Vehicles",
+    "updated": "2020-10-17 09:25:00",
+    "vehicles":[
+        {"id": 1, "registration":"WP14 VXS", "categoryId":1, "make":"Ford", "model":"Fiesta", "fuelId":1},
+        {"id": 2, "registration":"BZ11 HGY", "categoryId":2, "make":"Toyota", "model":"Corolla", "fuelId":1},
+        {"id": 3, "registration":"TY45 NWE", "categoryId":3, "make":"Honda", "model":"Bingo", "fuelId":2},
+        {"id": 4, "registration":"WP14 VZZ", "categoryId":1, "make":"Ford", "model":"Fiesta", "fuelId":1},
+        {"id": 5, "registration":"BB45 AGJ", "categoryId":3, "make":"Ford", "model":"Transit", "fuelId":2},
+        {"id": 6, "registration":"JK11 JAS", "categoryId":2, "make":"Renault", "model":"Megane", "fuelId":1}
+    ]
+}

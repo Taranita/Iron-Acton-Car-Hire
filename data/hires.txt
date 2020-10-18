@@ -1,0 +1,9 @@
+{
+    "name": "Current Hires",
+    "updated": "2020-10-17 10:15:00",
+    "hires":[
+        {"id": 1, "customerId":2, "vehicleId": 2, "dateFrom": "2020-10-17", "dateTo": "2020-11-01"},
+        {"id": 2, "customerId":2, "vehicleId": 3, "dateFrom": "2020-10-17", "dateTo": "2020-10-19"},
+        {"id": 3, "customerId":4, "vehicleId": 5, "dateFrom": "2020-10-18", "dateTo": "2020-10-18"}
+    ]
+}

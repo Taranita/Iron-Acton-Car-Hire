@@ -1,0 +1,134 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #edf5e1
+}
+
+.header{
+    font-size: 24px;
+    font-weight: bold;
+    color: #05386B;
+    text-align: center;
+}
+
+.titles{
+    color: #05386B;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    border-bottom: 1px solid #5CDB95;
+}
+
+div[id^="count_"]{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    border-bottom: 1px solid #5CDB95;
+    color: #379683;
+}
+
+.reg{
+    width: 120px;
+    flex-grow: 0;
+}
+
+.vType{
+    width: 110px;
+    flex-grow: 0;
+}
+
+.make{
+    width: 90px;
+    flex-grow: 0;
+}
+
+.model{
+    width: 90px;
+    flex-grow: 0;
+}
+
+.fuel{
+    width: 60px;
+    flex-grow: 0;
+}
+
+.custHired{
+    width: 150px;
+    flex-grow: 0;
+}
+
+.toDate{
+    width: 150px;
+    flex-grow: 0;
+}
+
+.cType{
+    width: 100px;
+    flex-grow: 0;
+}
+
+.postCode{
+    width: 100px;
+    flex-grow: 0;
+}
+
+.tel{
+    width: 120px;
+    flex-grow: 0;
+}
+
+.hires{
+    width: 80px;
+    flex-grow: 0;
+    text-align: center;
+}
+
+.spacer{
+    width: 0%;
+    flex-grow: 1;
+}
+
+a{
+    color: #05386B !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.tabs{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    height: 50px;
+}
+
+.tab{
+    width: 150px;
+    flex-grow: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #379683;
+}
+
+.dlgFld{
+    color: #379683;
+    width: 130px;
+    display: inline-block;
+}
+
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+
+.ui-dialog > .ui-widget-header {
+    background: rgb(243, 243, 243); 
+    color:#000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
