@@ -23,4 +23,4 @@ liveMode                - True/False    - Indicates whether the application is o
 
 
 
-In order to use the application, simply open the application's directory, the default index.html page will load. Once in the application you can switch between views of vehicles or customers. Youi can also click on a hire to see its details.
+In order to use the application, simply open the application's directory, the default index.html page will load. Once in the application you can switch between views of vehicles or customers. You can also click on a hire to see its details.
