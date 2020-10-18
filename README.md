@@ -20,3 +20,7 @@ There is one constant value to mention. This is in the constants section of the 
 
 
 liveMode                - True/False    - Indicates whether the application is operating in live mode, or in development/test. In live mode, any error causes a user friendly message, while when not in live mode, error details are presented to the user.
+
+
+
+In order to use the application, simply open the application's directory, the default index.html page will load. Once in the application you can switch between views of vehicles or customers. Youi can also click on a hire to see its details.
